@@ -1,1 +1,23 @@
-.bs-pricerange {}
+.bs-pricerange {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%; height: 20px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	position: relative;
+}
+.bs-pricerange .bs-range-active {
+	width: 40%; height: 18px;
+	background-color: #f00;
+	position: absolute;
+	border-radius: 5px 0px 0px 5px;
+	top: 0px; left: 0px;
+}
+.bs-pricerange .bs-dragable {
+	height: 30px; width: 30px;
+	border-radius: 15px;
+	border: 6px solid #6e32bc;
+	position: absolute;
+	background-color: transparent;
+	top: -6px; left: 0px;
+}
